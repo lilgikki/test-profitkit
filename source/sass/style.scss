@@ -1,5 +1,13 @@
 // Swiper 7.4.1
-@import "vendor/swiper";
+// @import "global/swiper";
 
 @import "variables";
 @import "mixins";
+
+@import "global/utils";
+@import "global/normalize";
+@import "global/container";
+@import "global/fonts";
+
+@import "blocks/main-index";
+@import "blocks/slider";
