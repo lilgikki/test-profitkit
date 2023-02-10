@@ -1,20 +1,21 @@
 .container {
+  font-family: "Rubik", "Arial", sans-serif;
   box-sizing: border-box;
-  width: 100%;
-  min-width: 1024px;
-  max-width: 1220px;
+  width: 1568px;
   margin: 0 auto;
-  padding: 120px 30px;
+  padding: 80px 86px;
 
-  // @include vp-1199 {
-  //   padding: 100px 45px;
-  //   min-width: 768px;
-  //   max-width: 768px;
-  // }
+  @include vp-1559 {
+    width: 1214px;
+  }
 
-  // @include vp-767 {
-  //   min-width: 320px;
-  //   max-width: 320px;
-  //   padding: 70px 15px;
-  // }
+  @include vp-1279 {
+    padding: 60px 40px;
+    width: 768px;
+  }
+
+  @include vp-767 {
+    width: 320px;
+    padding: 40px 40px 40px 20px;
+  }
 }
