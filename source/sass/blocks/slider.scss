@@ -317,6 +317,7 @@
 }
 
 .slider__count {
+  padding: 0;
   transition: 0.3s;
   border: none;
   background-color: transparent;
@@ -326,6 +327,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.slider__count svg {
+  width: 12px;
 }
 
 .slider__count:hover {
