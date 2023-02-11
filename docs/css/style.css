@@ -1548,7 +1548,7 @@ template {
 @media (max-width: 767px) {
   .container {
     width: 320px;
-    padding: 40px 40px 40px 20px;
+    padding: 40px 0 40px 20px;
   }
 
   .slider__text {

@@ -13,7 +13,7 @@ const sliderItems = () => {
       speed: 600,
       breakpoints: {
         320: {
-          // slidesPerView: 1,
+          slidesPerView: 1.142,
           spaceBetween: 20,
         },
         768: {
